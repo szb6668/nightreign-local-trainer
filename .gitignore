@@ -1,0 +1,34 @@
+# Build products and local runtime data
+*.exe
+*.dll
+*.pdb
+*.log
+*.zip
+bin/
+obj/
+save-backups/
+GitHubPublish/
+releases/
+research/
+*-verification.txt
+*-diagnostics.txt
+self-test.txt
+last-error.txt
+rollback-error.txt
+verification*.json
+
+# Never distribute game data or user saves here
+Game/
+*.CT
+*.ct
+*.sl2*
+*.co2*
+*.bdt
+*.bhd
+regulation.bin
+steam_emu.ini
+OnlineFix.ini
+.env
+.env.*
+*.key
+*.pem
